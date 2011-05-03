@@ -72,7 +72,6 @@ public class CreationLignes {
         Station boucicaut = new Station ("Boucicaut", 3, false);
         Station felixFaure = new Station ("Felix Faure", 2, false);
         Station commerce = new Station ("Commerce", 7, false);
-        Station cambronne = new Station ("Cambronne", 3, false);
         Station laMottePicquetGrenelle = new Station ("La Motte Picquet Grenelle", 2, false);
         Station ecoleMilitaire = new Station ("Ecole Militaire", 1, false);
         Station laTourMaubourg = new Station ("La Tour Maubourg", 3, false);
@@ -205,7 +204,6 @@ public class CreationLignes {
                 listStations.add(boucicaut);
                 listStations.add(felixFaure);
                 listStations.add(commerce);
-                listStations.add(cambronne);
                 listStations.add(laMottePicquetGrenelle);
                 listStations.add(ecoleMilitaire);
                 listStations.add(laTourMaubourg);

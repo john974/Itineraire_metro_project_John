@@ -16,10 +16,19 @@ public class Main1 {
         Ligne ligne12 = CreationLignes.initialiserLigne(12);
         Ligne ligne14 = CreationLignes.initialiserLigne(14);
 
-        ligne1.afficherListeStations();
-        ligne4.afficherListeStations();
-        ligne8.afficherListeStations();
-        ligne12.afficherListeStations();
-        ligne14.afficherListeStations();
+
+        int i = 0;
+        for (Station station : reseau.getAllStations()) {
+            System.out.println(station.getNom());
+            i++;
+        }
+        System.out.println("\nIl y a : "+reseau.getAllStations().size()+" stations.");
+
+
+        //ligne1.afficherListeStations();
+        //ligne4.afficherListeStations();
+        //ligne8.afficherListeStations();
+        //ligne12.afficherListeStations();
+        //ligne14.afficherListeStations();
     }
 }

@@ -97,7 +97,6 @@ public class CreationReseauNew {
         Station boucicaut = new Station ("Boucicaut", 3, false);
         Station felixFaure = new Station ("Felix Faure", 2, false);
         Station commerce = new Station ("Commerce", 7, false);
-        Station cambronne = new Station ("Cambronne", 3, false);
         Station laMottePicquetGrenelle = new Station ("La Motte Picquet Grenelle", 2, false);
         Station ecoleMilitaire = new Station ("Ecole Militaire", 1, false);
         Station laTourMaubourg = new Station ("La Tour Maubourg", 3, false);
@@ -230,7 +229,6 @@ public class CreationReseauNew {
         listAllStations.add(boucicaut);
         listAllStations.add(felixFaure);
         listAllStations.add(commerce);
-        listAllStations.add(cambronne);
         listAllStations.add(laMottePicquetGrenelle);
         listAllStations.add(ecoleMilitaire);
         listAllStations.add(laTourMaubourg);
