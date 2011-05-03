@@ -15,5 +15,11 @@ public class Main1 {
         Ligne ligne8 = CreationLignes.initialiserLigne(8);
         Ligne ligne12 = CreationLignes.initialiserLigne(12);
         Ligne ligne14 = CreationLignes.initialiserLigne(14);
+
+        ligne1.afficherListeStations();
+        ligne4.afficherListeStations();
+        ligne8.afficherListeStations();
+        ligne12.afficherListeStations();
+        ligne14.afficherListeStations();
     }
 }

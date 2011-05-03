@@ -20,6 +20,7 @@ public class CreationLignes {
         /* Creation des stations */
         Station chateauDeVincennes = new Station ("Chateau de Vincennes", 3, false);
         Station berault = new Station ("Berault", 4, false);
+        Station saintMande = new Station ("Saint Mande", 2, false);
         Station porteDeVincennes = new Station ("Porte de Vincennes", 3, false);
         Station nation = new Station ("Nation", 2, false);
         Station reuillyDiderot = new Station ("Reuilly-Diderot", 4, false);
@@ -137,6 +138,7 @@ public class CreationLignes {
 
                 listStations.add(chateauDeVincennes);
                 listStations.add(berault);
+                listStations.add(saintMande);
                 listStations.add(porteDeVincennes);
                 listStations.add(nation);
                 listStations.add(reuillyDiderot);

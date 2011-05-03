@@ -65,6 +65,12 @@ public class Ligne {
         this.tempDeParcourt = tempDeParcourt;
     }
 
-
+    public void afficherListeStations () {
+        System.out.println("Liste des stations de la ligne "+this.getNumero()+" :\n");
+        for (Station station : this.listStations) {
+            System.out.println(station.getNom());
+        }
+        System.out.println("\n\n");
+    }
 
 }

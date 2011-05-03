@@ -42,6 +42,7 @@ public class CreationReseauNew {
             //Stations surtout de la ligne 1
         Station chateauDeVincennes = new Station ("Chateau de Vincennes", 3, false);
         Station berault = new Station ("Berault", 4, false);
+        Station saintMande = new Station ("Saint Mande", 2, false);
         Station porteDeVincennes = new Station ("Porte de Vincennes", 3, false);
         Station nation = new Station ("Nation", 2, false);
         Station reuillyDiderot = new Station ("Reuilly-Diderot", 4, false);
@@ -177,6 +178,7 @@ public class CreationReseauNew {
 
         listAllStations.add(chateauDeVincennes);
         listAllStations.add(berault);
+        listAllStations.add(saintMande);
         listAllStations.add(porteDeVincennes);
         listAllStations.add(nation);
         listAllStations.add(reuillyDiderot);
